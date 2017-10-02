@@ -1,0 +1,39 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;	
+}
+
+.brown {
+	background-color: #AA896A;
+	height: 100vh;
+	width: 50vw;
+}
+
+.purple {
+	background-color: #84577E;
+	height: 100vh;
+	width: 50vw;
+}
+
+@media screen and (max-width: 700px) {
+body {
+	float: left;
+display: inline;	
+	}
+	
+	.brown {
+	background-image: url("block.jfif");
+	height: 50vh;
+	width: 100vw;
+	margin-left: 0;
+	}
+
+	.purple {
+	background-color: #84577E;
+	height: 50vh;
+	width: 100vw;
+	margin-left: 0;
+	}
+}
